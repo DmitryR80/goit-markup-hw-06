@@ -757,7 +757,7 @@ fill: #f4f4fd;
 
 }
 .modal-label {
-    display: flex;
+    /*display: flex;*/
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
@@ -769,9 +769,28 @@ fill: #f4f4fd;
     display: block;
     margin-bottom: 4px;
 }
-.input-list {
+.input-icon-person , 
+.input-icon-phone , 
+.input-icon-email {
 position: relative;
 }
+
+.icon-person ,  
+.icon-email {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-phone {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 .input {
     display: flex;
@@ -787,4 +806,78 @@ position: relative;
   padding: 8px 24px;
   width: 165px;
   height: 40px;
+}
+
+.Comment {
+  margin-bottom: 16px;
+}
+.input-comment {
+  width: 100%;
+  height: 120px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-comment:hover {
+  border-color: #4D5AE5;
+}
+
+.checbox {
+  margin-bottom: 24px;
+}
+
+.checkbox-user {
+  visibility: hidden;
+}
+.checkbox-user:checked {
+  background-color: #404bbf;
+}
+
+.check-privasy {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04;
+  color: #8e8f99;  
+}
+
+.check-text {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  border: none;
+  fill: #F4F4FD;  
+}
+
+.primacy-policy {
+  color: #4d5ae5;  
+}
+
+.button-submit {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }

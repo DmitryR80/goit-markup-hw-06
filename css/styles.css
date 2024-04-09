@@ -804,12 +804,12 @@ position: relative;
   
 
 }
-.submit-btn {
+/*.submit-btn {
   border-radius: 4px;
   padding: 8px 24px;
   width: 165px;
   height: 40px;
-}
+}*/
 
 .Comment {
   margin-bottom: 16px;
@@ -857,7 +857,7 @@ position: relative;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+  /*display: inline-flex;*/
   align-items: center;
   justify-content: center;
   fill: transparent;

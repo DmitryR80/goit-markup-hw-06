@@ -792,13 +792,17 @@ color: #ffffff;
 position: relative;
 }
 
-.icon-person:hover {
+.modal-input:hover + .icon-person {
   fill: #4D5AE5;  
+}
+
+.modal-input:focus + .icon-person {
+  fill: #4D5AE5;
 }
 
 .icon-person {
   position: absolute;
-  fill: transparent;
+  fill: #2E2F42;
   stroke: #4D5AE5;
   left: 16px;
   top: 50%;
@@ -808,7 +812,7 @@ position: relative;
 
 .icon-phone {
   position: absolute;
-  fill: transparent;
+  fill: #2E2F42;
   stroke: #4D5AE5;
   left: 16px;
   top: 50%;
@@ -834,7 +838,7 @@ position: relative;
 
 .icon-email {
   position: absolute;
-  fill: transparent;
+  fill: #2E2F42;
   stroke: #4D5AE5;
   left: 16px;
   top: 50%;

@@ -706,7 +706,7 @@ color: #ffffff;
   right: 24px;
   top: 24px;
   width: 24px;
-  height: 25px;
+  height: 24px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -721,12 +721,12 @@ color: #ffffff;
 
 .button-close:hover {
   background-color: #404bbf;
-  fill: #ffffff
+  fill: #ffffff;
 }
 
 .button-close:focus {
   border: none;
-  fill: #ffffff
+  fill: #ffffff;
 }
 
 .button-icon-close {

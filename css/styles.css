@@ -147,14 +147,13 @@ a {
 }
 
 .header-nav-link {
-  /*color: #2e2f42; */
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -214,7 +213,7 @@ a {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-  
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -225,7 +224,7 @@ a {
  cursor: pointer;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  text-align: center;
- margin: 48px auto;
+ margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -309,15 +308,15 @@ a {
 .team-list {
   display: flex;
   gap: 24px;
- 
 }
 
 .team-item {
  /*width: calc((100% - 3 * 24px) / 4 );*/
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16),
       0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
 }
 
 .team-img {
@@ -332,7 +331,7 @@ a {
   gap: 24px;
   flex-direction: row;    
   padding-top: 8px;
- 
+  background: #fff;
 }
 
 .team-contact-item {
@@ -516,6 +515,7 @@ a {
   justify-content: space-between;
   flex-direction: column;
   width: 264px;
+  /*margin-bottom: 10px;*/
   /*margin-right: 120px;*/   
 }
 
@@ -609,10 +609,10 @@ fill: #f4f4fd;
 }
 .footer-input {
   display: flex;
-  align-items: left;
+  /*align-items: left;*/
   justify-content: center;
   flex-direction: column;
-  gap: 16px;
+  /*gap: 16px;*/
   margin-left: 80px;
   max-width: 453px;
 }
@@ -664,12 +664,12 @@ color: #ffffff;
   color: #ffffff;
   cursor: pointer;
   background-color: #4D5AE5;
-  bottom: none;
+  /*bottom: none;*/
   border-radius: 4px;  
 }
 
 .icon-fly {
-  margin-left: 16px;
+ /* margin-right: 16px;*/
   fill: #f4f4fd;  
 }
 
@@ -877,7 +877,7 @@ position: relative;
 }
 
 
-.Comment {
+.comment {
   margin-bottom: 16px;
 }
 
@@ -969,7 +969,7 @@ position: relative;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
   border-radius: 4px;
-    padding: 8px 24px;
+    padding: 16px 32px;
     /*width: 165px;
     height: 40px;*/
     margin: 0 auto;

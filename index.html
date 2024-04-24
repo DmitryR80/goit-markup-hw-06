@@ -553,9 +553,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-button-close">
+        <button type="button" class="modal-button-close">
           <svg class="button-icon-close" width="8" height="8">
             <use href="./images/symbol-defs.svg#icon-close-black"></use>
           </svg>
@@ -578,8 +578,10 @@
                 <use href="./images/symbol-defs.svg#icon-person-black"></use>
               </svg>
             </div>
-            <div class="input-icon-phone">
-              <label for="user-phone" class="modal-label">Phone</label>
+          </div>
+          <div class="modal-input-list">
+            <label for="user-phone" class="modal-label">Phone</label>
+            <div class="input-icon-person">
               <input
                 type="tel"
                 name="user-phone"
@@ -590,8 +592,10 @@
                 <use href="./images/symbol-defs.svg#icon-phone-black"></use>
               </svg>
             </div>
-            <div class="input-icon-email">
-              <label for="user-email" class="modal-label">E-mail</label>
+          </div>
+          <div class="modal-input-list">
+            <label for="user-email" class="modal-label">E-mail</label>
+            <div class="input-icon-person">
               <input
                 type="email"
                 name="user-email"
@@ -602,35 +606,35 @@
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
             </div>
-            <div class="Comment">
-              <label for="user-comment" class="modal-label">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                class="input-comment"
-              ></textarea>
-            </div>
-            <div class="checbox">
-              <input
-                id="user-privacy"
-                type="checkbox"
-                value="true"
-                name="user-privacy"
-                class="checkbox-user visually-hidden"
-              />
-              <label for="user-privacy" class="check-privasy">
-                <span class="check-text">
-                  <svg class="icon-checkbox" width="10" height="8">
-                    <use href="./images/symbol-defs.svg#icon-Vector"></use>
-                  </svg>
-                </span>
-                I accept the terms and conditions of the
-                <a href="" class="check-link">Privacy Policy</a>
-              </label>
-            </div>
-            <button type="submit" class="button-submit">Send</button>
           </div>
+          <div class="Comment">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="input-comment"
+            ></textarea>
+          </div>
+          <div class="checbox">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="checkbox-user visually-hidden"
+            />
+            <label for="user-privacy" class="check-privasy">
+              <span class="check-text">
+                <svg class="icon-checkbox" width="10" height="8">
+                  <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="check-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="button-submit">Send</button>
         </form>
       </div>
     </div>

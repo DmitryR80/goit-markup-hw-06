@@ -664,16 +664,12 @@ color: #ffffff;
   color: #ffffff;
   cursor: pointer;
   background-color: #4D5AE5;
-  bottom: none;
   border-radius: 4px;  
 }
 
 .icon-fly {
   fill: #f4f4fd; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 16px;
+  margin-left: 16px;
 }
 
 

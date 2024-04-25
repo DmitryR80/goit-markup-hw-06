@@ -737,7 +737,7 @@ color: #ffffff;
 }
 
 .modal-button-close:focus {
-  background-color: #404bbf;
+ /* background-color: #404bbf;*/
   fill: #ffffff;
   border: none;
 }
@@ -903,18 +903,20 @@ position: relative;
 
 .checbox {
   margin-bottom: 24px;
+  margin-top: 16px;
 }
 
 .checkbox-user:checked + .check-privasy span {
   background-color: #404bbf;
   border: none;
+  fill: #F4F4FD;
 }
 
 .check-privasy {
   font: 400 12px / 1.16667 "Roboto", sans-serif;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #8e8f99; 
   display: flex;
   align-items: center; 

@@ -627,10 +627,12 @@ fill: #f4f4fd;
 
 .form-email {
   display: flex;
-  gap: 24px;  
+    
 }
 
-.label-title {}
+.label-title {
+  gap: 24px;
+}
 
 .input-email {
   width: 264px;
@@ -664,7 +666,9 @@ color: #ffffff;
   color: #ffffff;
   cursor: pointer;
   background-color: #4D5AE5;
-  border-radius: 4px;  
+  border-radius: 4px;
+  border: none;
+  margin-left: 24px;
 }
 
 .icon-fly {

@@ -922,16 +922,16 @@ position: relative;
 }
 
 .check-privasy {
-  font: 400 12px / 1.16667 "Roboto", sans-serif;
+  font: 400 "Roboto", sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99; 
-  display: flex;
+  /*display: flex;
   align-items: center; 
   justify-content: flex-start;
   flex-direction: row;
-  gap: 8px;
+  gap: 8px;*/
 }
 
 .check-privasy span {
@@ -943,7 +943,7 @@ position: relative;
   /*display: flex;*/
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  /*fill: transparent;*/
   fill: #F4F4FD;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

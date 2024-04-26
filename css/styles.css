@@ -46,9 +46,7 @@ a {
     background: #4d5ae5;
     cursor: pointer;
     border-radius: 4px;
-    border: none;
-    padding: 16px 32px;
-
+    border: none;  
  }
 
  address {
@@ -217,6 +215,7 @@ a {
 }
 
 .hero-button {
+ min-width: 169px; 
  display: block;
  border: none;
  background-color: #4d5ae5;
@@ -224,6 +223,8 @@ a {
  cursor: pointer;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  text-align: center;
+ padding-top: 16px;
+ padding-bottom: 16px;
  margin: 0 auto;
 }
 
@@ -322,7 +323,6 @@ a {
 .team-img {
   display: flex;
   justify-content: center;
- /* margin-bottom: 32px;*/
 }
 
 .team-contact-list {
@@ -515,8 +515,6 @@ a {
   justify-content: space-between;
   flex-direction: column;
   width: 264px;
-  /*margin-bottom: 10px;*/
-  /*margin-right: 120px;*/   
 }
 
 .footer-container-link {  
@@ -555,7 +553,6 @@ a {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  /*line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -596,7 +593,6 @@ a {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .footer-contact-link:hover,
@@ -609,10 +605,8 @@ fill: #f4f4fd;
 }
 .footer-input {
   display: flex;
-  /*align-items: left;*/
   justify-content: center;
   flex-direction: column;
-  /*gap: 16px;*/
   margin-left: 80px;
   max-width: 453px;
 }
@@ -668,7 +662,6 @@ color: #ffffff;
   background-color: #4D5AE5;
   border-radius: 4px;
   border: none;
-  /*margin-left: 24px;*/
 }
 
 .submit-btn:focus,
@@ -781,21 +774,12 @@ color: #ffffff;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus {
-  border-color: #4D5AE5;
-}
-
 .modal-input:focus + .icon-person {
+  border-color: #4D5AE5;
   fill: #4D5AE5;
 }
 
-.modal-input::placeholder {
-  color:#31d0aa;
-}
-
-
 .modal-label {
-  /*display: flex;*/
   font: 400 12px / 1.16667 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   line-height: 1.17;
@@ -814,66 +798,13 @@ color: #ffffff;
 position: relative;
 }
 
-.modal-input:hover + .icon-person {
-  fill: #4D5AE5;  
-}
-
-.modal-input:focus + .icon-person {
-  fill: #4D5AE5;
-}
-
 .icon-person {
   position: absolute;
   fill: #2E2F42;
-  stroke: #4D5AE5;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-phone {
-  position: absolute;
-  fill: #2E2F42;
-  stroke: #4D5AE5;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-0%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.input-icon-phone {
-  position: relative;
-}
-
-.modal-input:focus + .icon-phone {
-  fill: #4D5AE5;
-}
-
-.modal-input:hover + .icon-phone {
-  fill: #4D5AE5;
-}
-
-.input-icon-email {
-  position: relative;
-}
-
-.icon-email {
-  position: absolute;
-  fill: #2E2F42;
-  stroke: #4D5AE5;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-0%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-input:focus + .icon-email {
-  fill: #4D5AE5;
-}
-
-.modal-input:hover + .icon-email {
-  fill: #4D5AE5;
 }
 
 .input {
@@ -884,7 +815,6 @@ position: relative;
   gap: 16px;
   margin-left: 80px;
 }
-
 
 .comment {
   margin-bottom: 16px;
@@ -912,7 +842,7 @@ position: relative;
 
 .checbox {
   margin-bottom: 24px;
- /* margin-top: 16px;*/
+ 
 }
 
 .checkbox-user:checked + .check-privasy span {
@@ -927,11 +857,6 @@ position: relative;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99; 
-  /*display: flex;
-  align-items: center; 
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 8px;*/
 }
 
 .check-privasy span {
@@ -940,12 +865,6 @@ position: relative;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;*/
-  /*fill: transparent;*/
-  /*fill: #F4F4FD;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .check-text {
@@ -958,8 +877,7 @@ position: relative;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  /*border: none;*/
- }
+}
 
 .check-link {
   font: 400 12px / 1.33333 "Roboto", sans-serif;

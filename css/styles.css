@@ -236,11 +236,11 @@ a {
 /*============ Features 2 ===========*/ 
 
 .features {
-  max-width: 1440px;
+  max-width: 320px;
   background-color: #fff;
   margin: 0 auto;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   }
 
 .icon {
@@ -255,9 +255,8 @@ a {
 }
 
 .features-list {
-  display: flex;
-  gap: 24px;
- 
+  display: flex;  
+  gap: 72px; 
 }
 
 .features-item {
@@ -282,6 +281,30 @@ a {
   color: #434455;
 }
 
+@media screen and (max-width:1158px) {
+  .features{
+  max-width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  }
+  
+  .features-list {
+    display: flex;
+    gap: 24px;
+ }
+}
+@media screen and (max-width:768px) {
+
+
+}
+@media screen and (max-width:320px) {
+.icon{
+  display: none;
+}
+.features-subtitle {
+  text-align: center;
+}
+}
 /*============= Team 3 =============*/
 
 .team {

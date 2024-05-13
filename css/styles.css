@@ -67,8 +67,8 @@ a {
  }
  
  .container {
-  max-width: 1158px;
-  padding: 0 15px;  
+  max-width: 320px;
+  padding: 0 16px;  
   margin: 0 auto;
 
    /*border: 2px dashed #2a2a2a; */
@@ -244,14 +244,14 @@ a {
   }
 
 .icon {
-  display: flex;
+  display: none;
   align-items: center;
-  justify-content: center;  
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 .features-list {
@@ -282,6 +282,10 @@ a {
 }
 
 @media screen and (max-width:1158px) {
+  .container {
+    max-width: 1158px;
+    
+ }
   .features{
   max-width: 1440px;
   padding-top: 120px;
@@ -292,19 +296,34 @@ a {
     display: flex;
     gap: 24px;
  }
+ .icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 112px;
+   background-color: #f4f4fd;
+   border-radius: 4px;
+   border: 1px solid #8e8f99;
+   margin-bottom: 8px;
+ }
+
 }
 @media screen and (max-width:768px) {
+.container {
+    max-width: 768px;
+  }
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+ }
+}
 
-
-}
-@media screen and (max-width:320px) {
-.icon{
-  display: none;
-}
-.features-subtitle {
-  text-align: center;
-}
-}
 /*============= Team 3 =============*/
 
 .team {

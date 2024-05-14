@@ -240,7 +240,7 @@ button {
 .hero {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
  rgba(46, 47, 66, 0.7)), 
- url( ../images/mobile/hero\ image\ mobile\ 1x-min.jpg ,../images/mobile/hero\ image\ mobile\ 2x-min.jpg 2x);
+ url(../images/mobile/Dark-bg-min.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;

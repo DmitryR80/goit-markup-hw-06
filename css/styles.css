@@ -515,6 +515,8 @@ background-color: #2e2f42;
     margin: 0 auto;
 }
 .features-list {
+  display: flex;
+  justify-content: center;
 
 }
 

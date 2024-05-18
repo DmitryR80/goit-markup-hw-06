@@ -516,8 +516,14 @@ background-color: #2e2f42;
 }
 .features-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
 
+}
+.features-item {
+  max-width: 356px;
+  
 }
 
 }

@@ -295,6 +295,8 @@ a {
 }
 
 .header-nav-link {
+  display: block;
+  padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -409,12 +411,23 @@ background-color: #2e2f42;
     padding-bottom: 72px;
 }
 .hero-button {
-  padding: 16px 32px;
+  min-width: 169px; 
+  display: block;
+  border: none;
+  background-color: #4d5ae5;
   border-radius: 4px;
-  margin: 0 auto;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 0 auto;
+  color:#FFFFFF;
+ }
+
+ .hero-button:hover,
+.hero-button:focus {
+ background: #404bbf;
 }
 
 @media screen and (min-width:768px) {
@@ -1063,7 +1076,7 @@ margin-top: 72px;
 }
 
 .modal {  
-  max-width: 288px;
+  
   min-height: 623px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -1125,9 +1138,9 @@ width: 256px;
 height: 336px;
 }
 .modal-input-list{
-width: 256px;
-height: 58px;
-margin-bottom: 8px;
+  width: 256px;
+  height: 58px;
+  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
@@ -1165,7 +1178,7 @@ margin-bottom: 8px;
   position: relative;
   }
 
-  .icon-person {
+.icon-person {
     position: absolute;
     fill: #2E2F42;
     left: 16px;
@@ -1174,18 +1187,17 @@ margin-bottom: 8px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .comment {
-  
+.comment {  
   margin-bottom: 16px;
   }
-  .input-comment {
+
+.input-comment {
     width: 100%;
-    height: 138px;
+    height: 120px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
-    opacity: 0.5;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -1195,13 +1207,15 @@ margin-bottom: 8px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .input-comment:focus {
+
+.input-comment:focus {
     border-color: #4D5AE5;
   }
 
+  /* ============ CHECBOX ============= */
   
 .checbox {
-  
+  margin-bottom: 24px;
  }
 
 .checkbox-user:checked + .check-privasy span {
@@ -1211,7 +1225,7 @@ margin-bottom: 8px;
 }
 
 .check-privasy {
-  font: 400 ;
+  font-weight: 400 ;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1237,12 +1251,17 @@ margin-bottom: 8px;
   justify-content: center;
   fill: transparent;
 }
+.check-text {
+  color: #2f2f37;
+}
 
 .check-link {
-  font: 400 12px / 1.33333;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #4d5ae5;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 1.33333;
+ text-decoration: underline;
+ text-decoration-skip-ink: none;
+ color: #4d5ae5;
 }
 
 .button-submit {
@@ -1258,11 +1277,32 @@ margin-bottom: 8px;
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
-  border-radius: 4px;
-  padding: 16px 32px;
+  border-radius: 4px; 
   margin: 0 auto;
 }
-
 .button-submit:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width:768px) {
+  .backdrop {
+    max-width: 768px;
+    max-height: 640px;
+  }
+  .modal {
+    min-width: 408px;
+    min-height: 584px;
+  }
+.modal-form {
+width: 360px;
+height: 336px;
+}
+.modal-input-list {
+  width: 360px;
+  }
+}
+@media screen and (min-width:1158px) {
+  .backdrop {
+    max-width: 1158px;    
+  }
 }

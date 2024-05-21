@@ -467,12 +467,12 @@ background-color: #2e2f42;
     min-height: 600px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)), url(../images/descktop/people-office\ 1-min.jpg);
+          rgba(46, 47, 66, 0.7)), url(../images/descktop/people-office1-min.jpg);
 }
 @media screen and (max-width:1158px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/descktop/people-office\ 1@2x-min.jpg);
+        rgba(46, 47, 66, 0.7)), url(../images/descktop/people-office1@2x-min.jpg 2x);
  }
 }
  .hero-wrap {

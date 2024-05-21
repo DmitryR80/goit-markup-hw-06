@@ -909,12 +909,12 @@ position: relative;
 }
 
 .comment {
+  width: 100%;
+  height: 120px;
   margin-bottom: 16px;
 }
 
 .input-comment {
-  width: 100%;
-  height: 120px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -932,10 +932,11 @@ position: relative;
   border-color: #4D5AE5;
 }
 
+/*============= CHECBOX =======*/
+
 .checbox {
   margin-bottom: 24px;
- 
-}
+ }
 
 .checkbox-user:checked + .check-privasy span {
   background-color: #404bbf;
@@ -944,7 +945,7 @@ position: relative;
 }
 
 .check-privasy {
-  font: 400 "Roboto", sans-serif;
+  font: 400 ;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -972,7 +973,7 @@ position: relative;
 }
 
 .check-link {
-  font: 400 12px / 1.33333 "Roboto", sans-serif;
+  font: 400 12px / 1.33333;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
@@ -982,7 +983,6 @@ position: relative;
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;

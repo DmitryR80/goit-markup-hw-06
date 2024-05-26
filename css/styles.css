@@ -577,7 +577,17 @@ margin: 0 auto;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
+.features-subtitle {
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.01em;
+ text-align:start;     
+}
+.features-item-text {
+  font-weight: 400;
  }
+}
 
  /* ================== OUR TEAM =========*/
 
@@ -671,7 +681,7 @@ margin: 0 auto;
 }
  @media screen and (min-width:768px) {
   .team {
-    max-width: 768px;
+    min-width: 768px;
     background-color: #f4f4fd;
     }
 
@@ -687,7 +697,7 @@ margin: 0 auto;
 
  @media screen and (min-width:1158px) {
 .team {
-  max-width: 1158px;
+  min-width: 1158px;
   padding-top: 96px;
   padding-bottom: 96px;
  }
@@ -719,7 +729,6 @@ margin: 0 auto;
    justify-content: center;
    flex-direction: column;
    gap: 48px;
-   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background: #fff;
 }
 
@@ -844,13 +853,13 @@ margin: 0 auto;
   }
   .footer-logo {
     display: block;
-    padding: 16px 0;
     color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-family: reletivsanserif ;
    }
    
 .footer-logo-part {
@@ -922,8 +931,7 @@ margin-top: 72px;
   color: #ffffff;  
   margin: 0 auto;
   padding-bottom: 16px;
-  padding-top: 72px;
-}
+  }
 
 .form-email {
   display: flex;

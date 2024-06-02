@@ -856,11 +856,12 @@ margin: 0 auto;
     color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: reletivsanserif ;
-   }
+    font-family: reletivsanserif;
+    margin-bottom: 16px;
+}
    
 .footer-logo-part {
   color: #f4f4fd;
@@ -876,6 +877,7 @@ margin: 0 auto;
 
 .footer-container-link {
 margin-top: 72px;
+margin-bottom: 72px;
 }
 .footer-contact-text {
   display: flex; 
@@ -918,7 +920,7 @@ margin-top: 72px;
   background-color: #404bbf;
 }
 
-  .footer-input {
+.footer-input {
   display: flex;
   justify-content: center;
   flex-direction: column; 
@@ -964,6 +966,13 @@ margin-top: 72px;
 .submit-btn:focus,
 .submit-btn:hover {
   background-color: #404bbf;
+}
+.input-email {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 288px;
+  height: 40px;
+  background: #2e2f42;
 }
 
 @media screen and (min-width:768px) {

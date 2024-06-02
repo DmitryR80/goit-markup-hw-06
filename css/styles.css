@@ -377,7 +377,7 @@ a {
   margin-right: auto;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
  rgba(46, 47, 66, 0.7)), 
- url(../images/mobile/Dark-bg-min.jpg);
+ url(/images/mobile/Dark-bg-min.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -599,6 +599,7 @@ margin: 0 auto;
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: #f4f4fd;
+  background: #f4f4fd;
  }
 
  .team-title {
@@ -681,8 +682,9 @@ margin: 0 auto;
 }
  @media screen and (min-width:768px) {
   .team {
-    min-width: 768px;
+    max-width: 768px;
     background-color: #f4f4fd;
+    background: #f4f4fd;
     }
 
 .team-list {
@@ -697,9 +699,10 @@ margin: 0 auto;
 
  @media screen and (min-width:1158px) {
 .team {
-  min-width: 1158px;
+  max-width: 1440px;
   padding-top: 96px;
   padding-bottom: 96px;
+  background: #f4f4fd;
  }
  }
 
